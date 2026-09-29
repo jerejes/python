@@ -5,33 +5,21 @@ class persona():
         self.genero = genero
         self.ocupacion = ocupacion
 
-        
-    def presentarse(self):
-        print(f"Hola, mi nombre es {self.nombre}, tengo {self.edad} años, soy {self.genero} y trabajo como {self.ocupacion}.")
+    def mostrarDatos(self):        
+        print(f"Hola, soy {self.nombre}, tengo {self.edad} años, soy {self.genero} y trabajo como {self.ocupacion}.")
 
-<<<<<<< HEAD
-
-        for indi,dato in enumerate(tup):
-            tup 
-
-    def mostrarPersonas(self, tupla):
-        for i in tupla:
-            print(i)
-        
-
-=======
 def llenarlista():
     nom = input("INGRESE EL NOMBRE:")
     edad = input("INGRESE LA EDAD:")
     gene = input("INGRESE EL GENERO:")
     ocp = input("INGRESE LA OCUPACION:")
     return nom,edad,gene,ocp
->>>>>>> origin/master
-tupla = tuple()
+
 
         
 
 
+tupla = tuple()
 
 while True:
     print("""
@@ -45,9 +33,10 @@ while True:
         case 1:
             nom,edad,gene,oco = llenarlista()
             persona = persona(nom,edad,gene,oco)
-            tupla +=(persona)
+            tupla +=(persona,)
         case 2:
-            print()
+            for i in tupla:
+                i.mostrarDatos()  
         case 3:
             print()
         case 4:
