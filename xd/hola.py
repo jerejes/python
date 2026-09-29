@@ -32,7 +32,7 @@ while True:
         case 2:
             print()
         case 3:
-            print()
+            for i in Registrar
         case 4:
             print()
         case _:
