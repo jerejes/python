@@ -14,11 +14,6 @@ def llenarlista():
     gene = input("INGRESE EL GENERO:")
     ocp = input("INGRESE LA OCUPACION:")
     return nom,edad,gene,ocp
-
-
-        
-
-
 tupla = tuple()
 
 while True:
