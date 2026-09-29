@@ -8,12 +8,8 @@ class persona():
         
     def presentarse(self):
         print(f"Hola, mi nombre es {self.nombre}, tengo {self.edad} años, soy {self.genero} y trabajo como {self.ocupacion}.")
-    def llenarlista(self , tup):
-        nom = input("INGRESE EL NOMBRE:")
-        edad = input("INGRESE LA EDAD:")
-        gene = input("INGRESE EL GENERO:")
-        ocp = input("INGRESE LA OCUPACION:")
 
+<<<<<<< HEAD
 
         for indi,dato in enumerate(tup):
             tup 
@@ -23,6 +19,14 @@ class persona():
             print(i)
         
 
+=======
+def llenarlista():
+    nom = input("INGRESE EL NOMBRE:")
+    edad = input("INGRESE LA EDAD:")
+    gene = input("INGRESE EL GENERO:")
+    ocp = input("INGRESE LA OCUPACION:")
+    return nom,edad,gene,ocp
+>>>>>>> origin/master
 tupla = tuple()
 
         
@@ -39,7 +43,9 @@ while True:
     opc = int (input("Ingrese una opción: "))
     match opc:
         case 1:
-            print()
+            nom,edad,gene,oco = llenarlista()
+            persona = persona(nom,edad,gene,oco)
+            tupla +=(persona)
         case 2:
             print()
         case 3:
