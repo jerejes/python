@@ -10,9 +10,9 @@ class persona():
         print(f"Hola, mi nombre es {self.nombre}, tengo {self.edad} años, soy {self.genero} y trabajo como {self.ocupacion}.")
     def llenarlista(self , tup):
         nom = input("INGRESE EL NOMBRE:")
-        nom = input("INGRESE EL NOMBRE:")
-        nom = input("INGRESE EL NOMBRE:")
-        nom = input("INGRESE EL NOMBRE:")
+        edad = input("INGRESE LA EDAD:")
+        gene = input("INGRESE EL GENERO:")
+        ocp = input("INGRESE LA OCUPACION:")
 
 
         for indi,dato in enumerate(tup):
