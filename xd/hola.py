@@ -17,7 +17,18 @@ class persona():
 
         for indi,dato in enumerate(tup):
             tup 
+
+    def mostrarPersonas(self, tupla):
+        for i in tupla:
+            print(i)
+        
+
 tupla = tuple()
+
+        
+
+
+
 while True:
     print("""
 1:Registrar persona
@@ -32,7 +43,7 @@ while True:
         case 2:
             print()
         case 3:
-            for i in Registrar
+            print()
         case 4:
             print()
         case _:
